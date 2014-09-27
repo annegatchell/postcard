@@ -12,6 +12,8 @@
 		950ECF8119BFFA410068F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950ECF7F19BFFA410068F2FE /* Main.storyboard */; };
 		950ECF8319BFFA410068F2FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950ECF8219BFFA410068F2FE /* Images.xcassets */; };
 		950ECF8F19BFFA410068F2FE /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ECF8E19BFFA410068F2FE /* PostcardTests.swift */; };
+		950ECF9919C00AE70068F2FE /* flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 950ECF9819C00AE70068F2FE /* flowers.jpg */; };
+		950ECF9B19C00ED30068F2FE /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 950ECF9A19C00ED30068F2FE /* stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		950ECF8819BFFA410068F2FE /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		950ECF8D19BFFA410068F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950ECF8E19BFFA410068F2FE /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		950ECF9819C00AE70068F2FE /* flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowers.jpg; sourceTree = "<group>"; };
+		950ECF9A19C00ED30068F2FE /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		950ECF7919BFFA410068F2FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				950ECF9A19C00ED30068F2FE /* stamp.jpg */,
+				950ECF9819C00AE70068F2FE /* flowers.jpg */,
 				950ECF7A19BFFA410068F2FE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				950ECF8119BFFA410068F2FE /* Main.storyboard in Resources */,
+				950ECF9919C00AE70068F2FE /* flowers.jpg in Resources */,
 				950ECF8319BFFA410068F2FE /* Images.xcassets in Resources */,
+				950ECF9B19C00ED30068F2FE /* stamp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
